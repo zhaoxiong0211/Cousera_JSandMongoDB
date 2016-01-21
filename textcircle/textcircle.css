@@ -3,3 +3,13 @@
 .top-margin{
 	margin-top:50px;
 }
+
+/*.accounts-dialog{
+	background:green;
+}*/
+
+#viewer_iframe{
+	border: 1px solid gray;
+	resize: both;
+	width: 100%;
+}
