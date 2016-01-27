@@ -1,5 +1,6 @@
 
 
+        
 Accounts.ui.config({
     requestPermissions: {},
     extraSignupFields: [{
@@ -55,7 +56,7 @@ Accounts.ui.config({
         visible: true
     }, {
         fieldName: 'terms',
-        fieldLabel: 'I accept the terms and conditions',
+        fieldLabel: 'I accept the terms and conditions <a href="">See t and x...</a>',
         inputType: 'checkbox',
         visible: true,
         saveToProfile: false,
@@ -69,3 +70,4 @@ Accounts.ui.config({
         }
     }]
 });
+
